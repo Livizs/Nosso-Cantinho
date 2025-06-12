@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso Cantinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- CARROSSEL DE IMAGENS -->
+  <div class="carrossel">
+    <img id="imagem-carrossel" src="imgmor/1.jpeg" alt="Imagem carrossel" />
+    <div class="botoes">
+      <button onclick="anterior()">Anterior</button>
+      <button onclick="proxima()">Próxima</button>
+    </div>
+  </div>
+
+  <!-- PLAYER DE MÚSICA PERSONALIZADO -->
+ <div class="caixa-audio">
+  <p>Nossa Música hehehe💖</p>
+  <div class="player">
+    <button id="botao-play"><span id="icone">&#9658;</span></button>
+    <audio id="musica" src="imgmor/Aliança - Tribalistas (clipe oficial).mp3" loop></audio>
+  </div>
+</div>
+
+  <!-- TEXTOS E CONTEÚDO -->
+  <div class="conteudo-centralizado">
+    <header> 
+      <h1>TUDO É MELHOR COM VOCÊ...</h1>
+    </header>
+    <main>
+      <div class="caixa-texto">
+        <p>Quando se trata de você, tudo se torna mais incrível e especial. Não há um só momento em que eu não pense em você, em nós dois. Só de lembrar da sua risada e da sua voz, meus dias ganham mais cor, mais sentido. Você não é só o sentido da minha felicidade... é também o motivo da minha paz.</p>
+      </div>
+      <div class="caixa-texto">
+        <p>Quero que saiba que não desejo mais ninguém além de você. Ninguém se compara a você, porque, pra mim, você é e sempre será a pessoa dos meus sonhos, aquele por quem eu tanto orei. Eu nunca vou te abandonar, não importa a distância ou as dificuldades. Vou te amar com toda a minha vida!</p>
+      </div>
+    </main>
+
+    <!-- CONTADOR DE TEMPO -->
+    <div class="contador">
+      <h2>Estamos juntos há:</h2>
+      <p id="tempo">Carregando...</p>
+    </div>
+
+    <!-- VÍDEOS -->
+    <div class="videos">
+      <video controls>
+        <source src="imgmor/4.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+      <video controls>
+        <source src="imgmor/5.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
